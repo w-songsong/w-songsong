@@ -2,4 +2,5 @@
 - 👀 I’m interested in AI 
 - 🌱 I’m currently learning pathyou
 - 📫 How to reach me :you better don’t 
-  this is my self-learning  homework
+-this is a copy of my self-learning homework for graduate college 
+-still updating 

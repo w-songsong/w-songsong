@@ -1,6 +1,0 @@
-filePath = '二维码‘.png'
-with open(filePath, 'rb') as f:
-    image = f.read()
-from aip import AipOcr
-
-    

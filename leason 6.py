@@ -5,7 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 
-file = open("/Users/yequ/TVComments.csv", "r")
+#此处使用open()函数打开下载好的数据集
+file = open("下载好的文件.csv", "r")
 reader = csv.reader(file)
 
 data = []

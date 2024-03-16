@@ -1,17 +1,12 @@
 # 1.读取所有文件
 import os
-# 将存储照片的文件夹路径'AAA'赋值给变量imgroot
-imgroot = 'AAA' 
+imgroot = '文件夹路径' 
 imglist = os.listdir(imgroot)
 
 from aip import AipImageClassify
-# 将AppID"BBB"赋值给变量APP_ID
-APP_ID = 'BBB'
-# 将API Key"CCC"赋值给变量API_KEY
-API_KEY = 'CCC'
-# 将Secret Key"DDD"赋值给变量SECRET_KEY
-SECRET_KEY = 'DDD'
-# 新建一个AipImageClassify，并赋值给变量client
+APP_ID = '10252021'
+API_KEY = 'ZHe7788sh11GEjIAdEKeY'
+SECRET_KEY = 'JMMzHe7788BUSH1ZhEnM1YUEhh'
 client = AipImageClassify(APP_ID, API_KEY, SECRET_KEY)
 
 for imgname in imglist:
